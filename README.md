@@ -18,18 +18,16 @@ pip3 install -r requirements.txt
 
 After installing the dependencies, download the source code and pre-trained weights available in the Releases section (as a .pt file, no decompression needed). Assuming the weight file is named nn_2x64.pt, use the following command to launch the graphical interface:
 
-python3 dlgo.py --weights nn_2x64.pt --gui
+python3 dlgo.py --gui
 
 Documentation Directory
 
 Quick Start and Operational Tutorial: A simple guide on how to get started and operate the AI.
 
-Algorithm Implementation and Principles (Under Construction)
+Algorithm Implementation and Principles 
 
-GTP Interface Principles
+GTP Interface Principles gtp.py
 
-SGF Format Explanation
+SGF Format Explanation sgf.py
 
 Functions within board.py
-
-List of Python Go Engines (contributions welcome)
